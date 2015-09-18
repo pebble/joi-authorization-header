@@ -1,0 +1,22 @@
+{
+  "name": "joi-authorization-header",
+  "version": "1.0.0",
+  "description": "Joi object for validating a request authorization header",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "joi",
+    "authorization",
+    "header",
+    "validation"
+  ],
+  "author": "webteam@pebble.com",
+  "license": "MIT",
+  "devDependencies": {
+    "joi": "^6.7.1",
+    "mocha": "^2.3.2"
+  },
+  "dependencies": {}
+}
