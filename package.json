@@ -4,7 +4,7 @@
   "description": "Joi object for validating a request authorization header",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "make test-travis"
   },
   "keywords": [
     "joi",
@@ -14,9 +14,18 @@
   ],
   "author": "webteam@pebble.com",
   "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
+    "eslint": "^1.2.0",
+    "eslint-plugin-standard": "^1.2.0",
+    "eslint-config-pebble": "^1.2.0",
     "joi": "^6.7.1",
+    "istanbul-harmony": "^0.3.16",
     "mocha": "^2.3.2"
   },
-  "dependencies": {}
+  "eslintConfig": {
+    "extends": [
+      "pebble"
+    ]
+  }
 }
